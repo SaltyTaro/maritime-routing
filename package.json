@@ -1,0 +1,85 @@
+{
+  "name": "@arcnautical/maritime-routing",
+  "version": "1.0.0",
+  "description": "Production-grade maritime routing engine — A* ocean pathfinding, Dijkstra waypoint routing, 510+ port database, weather-aware ETA, EEZ analysis. Zero dependencies.",
+  "license": "MIT",
+  "author": "ArcNautical <hello@arcnautical.com> (https://arcnautical.com)",
+  "homepage": "https://github.com/SaltyTaro/maritime-routing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaltyTaro/maritime-routing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaltyTaro/maritime-routing/issues"
+  },
+  "keywords": [
+    "maritime",
+    "routing",
+    "ocean",
+    "pathfinding",
+    "shipping",
+    "navigation",
+    "sea-route",
+    "ports",
+    "geospatial",
+    "astar",
+    "dijkstra",
+    "ETA",
+    "beaufort",
+    "EEZ",
+    "vessel",
+    "marine",
+    "logistics",
+    "GeoJSON"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./pathfinding": {
+      "types": "./dist/pathfinding/index.d.ts",
+      "import": "./dist/pathfinding/index.js"
+    },
+    "./routing": {
+      "types": "./dist/routing/index.d.ts",
+      "import": "./dist/routing/index.js"
+    },
+    "./ports": {
+      "types": "./dist/ports/index.d.ts",
+      "import": "./dist/ports/index.js"
+    },
+    "./weather": {
+      "types": "./dist/weather/index.d.ts",
+      "import": "./dist/weather/index.js"
+    },
+    "./geography": {
+      "types": "./dist/geography/index.d.ts",
+      "import": "./dist/geography/index.js"
+    },
+    "./geo": {
+      "types": "./dist/geo/index.d.ts",
+      "import": "./dist/geo/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --import tsx dist/tests/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
