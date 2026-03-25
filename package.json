@@ -73,7 +73,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "node --test --import tsx dist/tests/*.test.js",
+    "test": "node --test --import tsx tests/maritime-routing.test.mts",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
