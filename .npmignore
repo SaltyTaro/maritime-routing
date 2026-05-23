@@ -1,0 +1,53 @@
+# Belt-and-suspenders alongside the `files` field in package.json. npm uses
+# `files` (whitelist) when present, but .npmignore is a safety net if the
+# files field is ever removed accidentally.
+
+# Source TypeScript — only ship compiled dist/ output
+src/
+
+# Tests
+tests/
+*.test.ts
+*.test.mts
+*.test.js
+
+# Build configuration
+tsconfig.json
+tsconfig.*.json
+
+# Git + CI
+.git/
+.gitignore
+.github/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / pnpm / yarn artifacts
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Misc dev files
+.env*
+*.local
+NOTES.md
+TODO.md

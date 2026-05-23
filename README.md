@@ -1,5 +1,12 @@
 # @arcnautical/maritime-routing
 
+[![npm version](https://img.shields.io/npm/v/@arcnautical/maritime-routing.svg?style=flat-square)](https://www.npmjs.com/package/@arcnautical/maritime-routing)
+[![npm downloads](https://img.shields.io/npm/dm/@arcnautical/maritime-routing.svg?style=flat-square)](https://www.npmjs.com/package/@arcnautical/maritime-routing)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
+[![Tests: 42 passing](https://img.shields.io/badge/tests-42%20passing-success?style=flat-square)](./tests/maritime-routing.test.mts)
+[![Zero dependencies](https://img.shields.io/badge/dependencies-0-success?style=flat-square)](./package.json)
+[![GitHub stars](https://img.shields.io/github/stars/SaltyTaro/maritime-routing?style=flat-square)](https://github.com/SaltyTaro/maritime-routing)
+
 Production-grade maritime routing engine for JavaScript/TypeScript. **Zero dependencies.**
 
 Compute realistic ocean routes between any two ports worldwide, with guaranteed land avoidance, weather-aware ETA, and EEZ transit analysis.
