@@ -17,6 +17,15 @@ Every shipping tech startup reinvents maritime routing. The existing open-source
 
 This library is extracted from [ArcNautical](https://arcnautical.com), a maritime risk intelligence platform. It has been tested against 1,790 real-world routes with 0% land crossing.
 
+> **This engine powers a live voyage-risk product.**
+> `@arcnautical/maritime-routing` is the open-source core of [ArcNautical](https://arcnautical.com)'s
+> lane-risk intelligence. The live app takes any origin -> destination lane and scores it for
+> sanctions exposure, piracy/conflict, chokepoint dependency and weather, then emails you a
+> dated lane-risk brief for that specific corridor.
+>
+> Try it on one of your own lanes -- the full computed result is shown with no signup:
+> **https://arcnautical.com**
+
 ## Features
 
 | Feature | Description |
