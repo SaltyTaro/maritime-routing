@@ -185,7 +185,6 @@ export const PORTS: Port[] = [
   { locode: 'INENN', name: 'Ennore', country: 'India', countryCode: 'IN', lat: 13.22, lon: 80.32, portType: 'mixed', region: 'indian_ocean' },
   { locode: 'INNML', name: 'New Mangalore', country: 'India', countryCode: 'IN', lat: 12.92, lon: 74.80, portType: 'mixed', region: 'indian_ocean' },
   { locode: 'INSIK', name: 'Sikka', country: 'India', countryCode: 'IN', lat: 22.41, lon: 69.84, portType: 'tanker', region: 'indian_ocean' },
-  { locode: 'INGWR', name: 'Gwadar', country: 'India', countryCode: 'IN', lat: 16.92, lon: 73.49, portType: 'general', region: 'indian_ocean' },
 
   // --- Australia ---
   { locode: 'AUMEL', name: 'Melbourne', country: 'Australia', countryCode: 'AU', lat: -37.82, lon: 144.92, portType: 'container', region: 'oceania' },

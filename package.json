@@ -1,6 +1,6 @@
 {
   "name": "@arcnautical/maritime-routing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-grade maritime routing engine — A* ocean pathfinding, Dijkstra waypoint routing, 510+ port database, weather-aware ETA, EEZ analysis. Zero dependencies.",
   "license": "MIT",
   "author": "ArcNautical <hello@arcnautical.com> (https://arcnautical.com)",
